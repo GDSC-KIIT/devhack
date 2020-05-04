@@ -1,0 +1,47 @@
+.dashboard-container {
+    padding: 2rem
+}
+
+.dashboard-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.dashboard-container h3, .dashboard-container h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.dashboard-container h5.btn {
+    margin: 0.2rem;
+    margin-left: 0rem;
+    font-size: 1.2rem;
+}
+
+.dashboard-container h3 span, .dashboard-container h5 span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.dashboard-container .voting, .dashboard-container .submissions {
+    padding-top: 3rem;
+}
+
+.dashboard-container .submissions form {
+    width: 50%;
+}
+
+.form-check {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 40%; 
+}
+
+@media screen and (max-width: 800px) {
+    .dashboard-container .submissions form {
+        width: 100%;
+    }   
+
+    .form-check {
+        margin-right: auto;
+    }
+}

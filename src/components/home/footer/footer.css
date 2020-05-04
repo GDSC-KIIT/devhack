@@ -1,0 +1,37 @@
+footer {
+    background-color: #f5f5f5;
+    margin-top: 2rem;
+}
+
+footer .logo-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+footer .logo-container img {
+    padding: 2rem;
+}
+
+footer h6 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        padding-left: 0rem;
+    }
+
+    footer .logo-container {
+        margin-bottom: 0rem;
+    }
+
+    footer .logo-container img {
+        width: 18rem;
+    }
+    
+    footer .logo-container img.kiit {
+        display: none;
+    }
+}

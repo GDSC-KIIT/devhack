@@ -1,0 +1,30 @@
+.rules-container {
+    padding-left: 4rem;
+    padding-right: 18rem;
+}
+
+.rules-container h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.rules-container h2 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #2196fc;
+    font-size: 3rem;    
+}
+
+.rules-container ol {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    .rules-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

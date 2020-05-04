@@ -1,0 +1,22 @@
+.sessions-container {
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+
+.sessions-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sessions-container .videos {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sessions-container .videos iframe {
+    margin: 1rem;
+}

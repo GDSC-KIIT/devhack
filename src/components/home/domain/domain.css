@@ -1,0 +1,86 @@
+.domain-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.domain-container .header {
+    flex: 1;
+}
+
+.domain-container .header h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 4rem;
+}
+
+.domain-container .text {
+    flex: 1;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 4rem;
+    gap: 2rem;
+}
+
+.domain-container .text .domain span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0.7rem;
+    margin: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.domain-container .text .domain p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 1.1rem;
+    margin-left: 0.3rem
+}
+
+.domain-container .text .domain .healthcare {
+    background-color: #ffcdd2;
+    color: #b71c1c;
+}
+
+.domain-container .text .domain .environment {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+}
+
+.domain-container .text .domain .education {
+    background-color: #b3e5fc;
+    color: #01579b;
+}
+
+.domain-container .text .domain .transport {
+    background-color: #e6ee9c;
+    color: #827717;
+}
+
+@media screen and (max-width: 800px) {
+    .domain-container, .domain-container .header, .domain-container .text {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .domain-container {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .domain-container .text {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .domain-container .header h4 {
+        margin: 0rem;
+        padding: 2rem;
+        padding-left: 0.3rem;
+        text-align: left;
+    }
+}

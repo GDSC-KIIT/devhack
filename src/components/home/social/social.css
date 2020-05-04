@@ -1,0 +1,76 @@
+@font-face {
+    src: url("../../../assets/productsans.ttf");
+    font-family: 'Product Sans', sans-serif;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.social-container .links {
+    flex: 1;
+    padding-right: 2rem;
+    padding-left: 10rem;
+}
+
+.social-container .links span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.social-container .links .icon-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 1rem;
+}
+
+.social-container .links .icon-container img {
+    margin-right: 2rem;
+}
+
+.social-container .logo {
+    flex: 1
+}
+
+.social-container .logo a:hover {
+    text-decoration: none;
+}
+
+.social-container .logo .img {
+    font-family: 'Product Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+    padding: 0rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .social-container {
+        flex-direction: column;
+    }
+    .social-container .logo .img {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .social-container .links {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .social-container .links .icon-container {
+        justify-content: center;
+    }
+
+    .social-container .links .icon-container img {
+        margin: 0rem;
+        padding: 0.8rem;
+    }
+}

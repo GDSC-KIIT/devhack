@@ -1,0 +1,17 @@
+.loginform {
+    padding-left: 15rem !important;
+    padding-right: 15rem !important;
+}
+
+.loginform h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .loginform {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }        
+}

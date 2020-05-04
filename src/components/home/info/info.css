@@ -1,0 +1,82 @@
+.info-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.info-container .number-grid {
+    flex: 1;
+    padding: 2rem;
+    padding-left: 10rem;
+}
+
+.info-container .number-grid img {
+    width: 26rem;
+}
+
+.info-container .text {
+    flex: 1;
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-right: 10rem;
+}
+
+.info-container .text h3 span {
+    font-weight: 700;
+} 
+
+.info-container .text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.info-container .text img {
+    height: 15rem;
+    padding: 2rem;
+    transition: 0.2s;
+}
+
+.info-container .text img:hover {
+    transform: rotate(90deg);
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 800px) {
+    .info-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0rem;
+        margin-bottom: 0rem;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    .info-container .number-grid {
+        padding: 0rem;
+        width: 100%
+    }
+
+    .info-container .number-grid img {
+        width: 100%;
+    }
+
+    .info-container .text {
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+
+    .info-container .text img {
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .info-container .text img {
+        height: 9rem;
+    }
+}

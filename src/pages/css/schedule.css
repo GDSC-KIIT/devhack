@@ -1,0 +1,23 @@
+.schedule-container {
+    padding: 2rem;
+}
+
+.schedule-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .schedule-container {
+        padding: 0rem;
+    }
+
+    .schedule-container table {
+        font-size: 0.8rem;
+    }
+
+    .schedule-container h1 {
+        padding: 2rem;
+        padding-bottom: 1rem;
+    }
+}
