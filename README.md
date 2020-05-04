@@ -35,6 +35,76 @@ Follow the following instructions to set up your dev environment, it's pretty st
 * `npm run build` to build to static assets
 
 
+A map of the source files. All the code is in the `src/` folder
+
+```
+src
+├── assets
+│   ├── productsans.ttf
+│   └── Rules-DevHack.pdf
+├── components
+│   ├── dashboard
+│   │   ├── dashboard.css
+│   │   └── Dashboard.js
+│   ├── firebase.js
+│   ├── home
+│   │   ├── domain
+│   │   │   ├── domain.css
+│   │   │   └── Domain.js
+│   │   ├── footer
+│   │   │   ├── footer.css
+│   │   │   └── Footer.js
+│   │   ├── info
+│   │   │   ├── info.css
+│   │   │   └── Info.js
+│   │   ├── landing
+│   │   │   ├── landing.css
+│   │   │   └── Landing.js
+│   │   ├── sessions
+│   │   │   ├── sessions.css
+│   │   │   └── Sessions.js
+│   │   └── social
+│   │       ├── social.css
+│   │       └── Social.js
+│   ├── navbar
+│   │   ├── navbar.css
+│   │   └── Navbar.js
+│   └── seo.js
+├── images
+│   ├── devhack-colour.svg
+│   ├── dsckiit-logo.svg
+│   ├── favicon.png
+│   ├── fb.svg
+│   ├── insta.svg
+│   ├── kiit-logo.svg
+│   ├── mobile-bg.svg
+│   ├── numbergrid.svg
+│   ├── semicircle.svg
+│   ├── triangle.svg
+│   ├── twitter.svg
+│   └── web-bg.svg
+└── pages
+    ├── css
+    │   ├── index.css
+    │   ├── login.css
+    │   ├── rules.css
+    │   └── schedule.css
+    ├── index.js
+    ├── leaderboard
+    │   ├── education.js
+    │   ├── environment.js
+    │   ├── healthcare.js
+    │   ├── index.js
+    │   └── transport.js
+    ├── login.js
+    ├── register.js
+    ├── rules.js
+    └── schedule.js
+
+15 directories, 46 files
+```
+
+
 You can open issues and pull requests if you have ways to improve the site. We are always open for that. Please make sure you write up the a proper description for your pull request and open a PR in the `development` branch. 
 
 
