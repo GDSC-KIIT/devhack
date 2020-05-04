@@ -1,4 +1,8 @@
-# DevHack - Web Portal.
+# DevHack 2020 🧑🏻‍🚀🚀
+
+![](screenshots/header.png)
+
+![](screenshots/a.png)
 
 Built using [GatsbyJS](https://www.gatsbyjs.org/) to leverage server side rendering. Used [Firebase](https://firebase.google.com/) for auth, database and hosting.
 
