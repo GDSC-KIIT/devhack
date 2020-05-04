@@ -1,0 +1,46 @@
+<h5>
+    Please enter the link to your git
+    repository, as mentioned in the rules
+</h5>
+
+<br></br>
+
+<form onSubmit={this.receiveSubmission}>
+    <div className="form-group">
+        <label>Repository Link</label>
+        <input
+            type="text"
+            className="form-control"
+            onChange={this.handleLinkChange}
+            aria-describedby="emailHelp"
+            required
+        ></input>
+    </div>
+
+    <button
+        className="btn btn-primary"
+        type="submit"
+    >
+        Submit
+    </button>
+</form>
+
+<br></br>
+
+<h5>
+    <span>Submitted Repository Link</span> :
+    <a href={this.state.teamdata.git_repo_link}>
+        {" "}
+        {this.state.teamdata.git_repo_link}
+    </a>
+</h5>
+
+<h6
+    style={{
+        fontFamily: "Roboto, sans-serif",
+        fontWeight: 300,
+    }}
+>
+    Submitted on{" "}
+    {this.state.teamdata.submission_time_stamp}
+</h6>
