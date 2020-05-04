@@ -7,8 +7,10 @@ problem solvers and creators out there who are ready to take up a challenge and 
 
 This repository contains all the code and database scripts for the website.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+<div align="center">
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg">
+    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg">
+</div>
 
 ## Build Status
 
@@ -41,6 +43,7 @@ Follow the following instructions to set up your dev environment. You can find a
     <img src="screenshots/a.png" width="80%">
 </div>
 
+<br>
 
 ## LICENSE
 Copyright (c) **DSC KIIT**. All rights reserved. Licensed under the MIT License
