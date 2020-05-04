@@ -12,12 +12,10 @@ This repository contains all the code and database scripts for the website.
     <img src="https://forthebadge.com/images/badges/made-with-javascript.svg">
 </div>
 
-## Build Status
-
 
 ## Code Style
 
-We have used the standard [Prettier](https://prettier.io/) config that comes already loaded with GatsbyJS
+We have used the standard [Prettier](https://prettier.io/) config that comes already loaded with GatsbyJS. You can view it [here](.prettierrc)
 
 
 ## Technologies and Frameworks 
@@ -30,11 +28,14 @@ at the `.github/workflows/build.yml` file for the CI specification.
 
 ## Development
 
-Follow the following instructions to set up your dev environment. You can find a list of all the dependencies in [package.json](package.json)
+Follow the following instructions to set up your dev environment, it's pretty straightforward. You can find a list of all the dependencies in [package.json](package.json)
 
 * `npm install` to install all the dependencies
 * `npm start` to build and view the site on `localhost:8000`
 * `npm run build` to build to static assets
+
+
+You can open issues and pull requests if you have ways to improve the site. We are always open for that. Please make sure you write up the a proper description for your pull request and open a PR in the `development` branch. 
 
 
 ## Screenshots
@@ -50,7 +51,7 @@ Copyright (c) **DSC KIIT**. All rights reserved. Licensed under the MIT License
 
 [![](https://img.shields.io/github/license/junaidrahim/desiresalesportal?style=for-the-badge)](LICENSE)
 
-
+<br>
 
 <div align="center">
     <img width="50%" src="screenshots/logo.png">
