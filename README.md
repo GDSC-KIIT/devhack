@@ -1,10 +1,13 @@
-# DevHack 2020 🧑🏻‍🚀🚀
-
 ![](screenshots/header.png)
 
-![](screenshots/a.png)
+# DevHack 2020 🧑🏻‍🚀🚀
+
+
+
+
 
 Built using [GatsbyJS](https://www.gatsbyjs.org/) to leverage server side rendering. Used [Firebase](https://firebase.google.com/) for auth, database and hosting.
+
 
 ## Development
 
@@ -13,3 +16,6 @@ Built using [GatsbyJS](https://www.gatsbyjs.org/) to leverage server side render
 
 The repository has CI/CD activated. Every commit pushed to `master` is built and deployed. You can have a look 
 at the `.github/workflows/build.yml` file for the CI spec.
+
+
+![](screenshots/a.png)
